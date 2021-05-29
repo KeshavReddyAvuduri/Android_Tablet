@@ -7,10 +7,13 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
+    "cordova-plugin-android-permissions": {
       "PACKAGE_NAME": "com.implen.nanophotometer.nanogap.tablet"
     },
-    "cordova-plugin-splashscreen": {
+    "cordova-plugin-androidx": {
+      "PACKAGE_NAME": "com.implen.nanophotometer.nanogap.tablet"
+    },
+    "cordova-plugin-androidx-adapter": {
       "PACKAGE_NAME": "com.implen.nanophotometer.nanogap.tablet"
     },
     "cordova-plugin-device": {
@@ -19,10 +22,11 @@
     "cordova-plugin-file": {
       "PACKAGE_NAME": "com.implen.nanophotometer.nanogap.tablet"
     },
-    "cordova-plugin-file-transfer": {
+    "cordova-plugin-file-opener2": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
       "PACKAGE_NAME": "com.implen.nanophotometer.nanogap.tablet"
     },
-    "cordova-plugin-screen-orientation": {
+    "cordova-plugin-file-transfer": {
       "PACKAGE_NAME": "com.implen.nanophotometer.nanogap.tablet"
     },
     "cordova-plugin-inappbrowser": {
@@ -31,11 +35,16 @@
     "cordova-plugin-network-information": {
       "PACKAGE_NAME": "com.implen.nanophotometer.nanogap.tablet"
     },
-    "cordova-plugin-file-opener2": {
-      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+    "cordova-plugin-screen-orientation": {
       "PACKAGE_NAME": "com.implen.nanophotometer.nanogap.tablet"
     },
-    "cordova-plugin-android-permissions": {
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.implen.nanophotometer.nanogap.tablet"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.implen.nanophotometer.nanogap.tablet"
+    },
+    "integrator-cordova-plugin-downloader": {
       "PACKAGE_NAME": "com.implen.nanophotometer.nanogap.tablet"
     }
   },
