@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.implen.nanophotometer.nanogap.tablet"
+4    android:hardwareAccelerated="true"
+5    android:versionCode="26"
+6    android:versionName="4.3.15670" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml
+11
+12    <supports-screens
+12-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+13        android:anyDensity="true"
+13-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+14        android:largeScreens="true"
+14-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+15        android:normalScreens="true"
+15-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+16        android:resizeable="true"
+16-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+17        android:smallScreens="true"
+17-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+18        android:xlargeScreens="true" />
+18-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+20-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:16:5-81
+21-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:16:22-78
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:17:5-79
+22-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:17:22-76
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:18:5-80
+23-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:18:22-77
+24
+25    <application
+25-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:5:5-15:19
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.0.0] /Users/udaya/.gradle/caches/transforms-2/files-2.1/2b7c43aab63a19fe7e7008cae3e47596/core-1.0.0/AndroidManifest.xml:22:18-86
+27        android:extractNativeLibs="false"
+28        android:hardwareAccelerated="true"
+28-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+29        android:icon="@drawable/icon"
+29-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:5:53-82
+30        android:label="@string/app_name"
+30-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:5:83-115
+31        android:supportsRtl="true"
+31-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:5:116-142
+32        android:usesCleartextTraffic="true" >
+32-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:5:143-178
+33        <activity
+33-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+34            android:name="com.implen.nanophotometer.nanogap.tablet.MainActivity"
+34-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+35-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+36            android:label="@string/activity_name"
+36-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+37            android:launchMode="singleTop"
+37-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+38            android:screenOrientation="landscape"
+38-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:6:194-231
+39            android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+39-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:6:232-294
+40            android:windowSoftInputMode="adjustResize" >
+40-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:6:295-337
+41            <intent-filter android:label="@string/launcher_name" >
+41-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+41-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+42-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+44-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <provider
+48-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:12:9-14:20
+49            android:name="io.github.pwlin.cordova.plugins.fileopener2.FileProvider"
+49-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:12:158-229
+50            android:authorities="com.implen.nanophotometer.nanogap.tablet.opener.provider"
+50-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:12:19-97
+51            android:exported="false"
+51-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:12:98-122
+52            android:grantUriPermissions="true" >
+52-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:12:123-157
+53            <meta-data
+53-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:13:13-114
+54                android:name="android.support.FILE_PROVIDER_PATHS"
+54-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:13:24-74
+55                android:resource="@xml/opener_paths" />
+55-->/Users/udaya/Desktop/BuildSetUpFor_Implen/Android_Tablet/platforms/android/app/src/main/AndroidManifest.xml:13:75-111
+56        </provider>
+57    </application>
+58
+59</manifest>
